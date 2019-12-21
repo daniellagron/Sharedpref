@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="enter name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="30dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:onClick="INC"
+        android:text="Increase" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:onClick="reset"
+        android:text="RESET" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:onClick="exit"
+        android:text="EXIT" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15" />
+
+</LinearLayout>
